@@ -236,9 +236,14 @@ running, so we have to fake out Fitnesse.  To do this:
   pathname in your test pages.
 * Create a Fitnesse page as described in `DevelopmentFitServer
   class>>exampleFitnessePage`.
-* In a workspace, run:
-	`FitDevelopmentSystem current filename: '/path/to/file/used/in/fakeFitServer/script' asFilename.
-	FitDevelopmentSystem activate.`
+* In a workspace, tell `FitDevelopmentSystem` where to find the shell
+  script or batch file you created:
+
+	`FitDevelopmentSystem current filename: '/path/to/file/used/in/fakeFitServer/script' asFilename.`
+
+* Then, activate the subsystem, which will start the polling loop.
+
+	`FitDevelopmentSystem activate.`
 
 Once you have done this, the development Fit server will start when
 you load your image, stop when you exit, and also stop and re-start
