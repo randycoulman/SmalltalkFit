@@ -12,7 +12,7 @@ This version contains the equivalent features of:
 
 # License
 
-   Copyright (C) 2004-2013 Randy Coulman
+    Copyright (C) 2004-2013 Randy Coulman
 
     This program is free software; you can redistribute it and/or modify
     it under the terms of the GNU General Public License as published by
@@ -62,33 +62,33 @@ GitHub.
 
 FitBundle contains the following packages:
 
-* Fit: The Smalltalk port of Fit and Fitnesse.
-* FitLibrary/FitLibrary-Internals: The Smalltalk port of FitLibrary.
-* Fit-Tests: The unit tests for Fit.
-* FitLibrary-Tests: The unit tests for FitLibrary.
-* Fit-Examples/Fit-Examples-Tests: Support code for the examples.
-* Fit-SpecFixtures/Fit-SpecFixtures-Tests: Support code for the Fit
+* `Fit`: The Smalltalk port of Fit and Fitnesse.
+* `FitLibrary`/`FitLibrary-Internals`: The Smalltalk port of FitLibrary.
+* `Fit-Tests`: The unit tests for Fit.
+* `FitLibrary-Tests`: The unit tests for FitLibrary.
+* `Fit-Examples`/`Fit-Examples-Tests`: Support code for the examples.
+* `Fit-SpecFixtures`/`Fit-SpecFixtures-Tests`: Support code for the Fit
   specifications.
-* FitLibrary-SpecFixtures: Support code for running the FitLibrary
+* `FitLibrary-SpecFixtures`: Support code for running the FitLibrary
   specifications.
-* FitLibrary-Tutorial: Support code for running the FitLibrary
+* `FitLibrary-Tutorial`: Support code for running the FitLibrary
   tutorial examples.
-* FitLibrary-UserGuideFixtures: Support code for running the examples
+* `FitLibrary-UserGuideFixtures`: Support code for running the examples
   in the FitLibrary User's Guide.
 
 There is also a Smalltalk port of the examples in Rick Mugridge and
 Ward Cunningham's book,
 [Fit for Developing Software"](http://www.amazon.com/Fit-Developing-Software-Framework-Integrated/dp/0321269349):
 
-* Fit-Book-DomainCode/Fit-Book-Fixtures: Support code for the
+* `Fit-Book-DomainCode`/`Fit-Book-Fixtures`: Support code for the
   examples.
-* Fit-Book-RPS/Fit-Book-RPS-Tests/Fit-Book-RPS-Fixtures: Support code
+* `Fit-Book-RPS`/`Fit-Book-RPS-Tests`/`Fit-Book-RPS-Fixtures`: Support code
   for an updated version of the Rent-a-Party Software example.
 
 Finally, there is a Smalltalk port of Gojko Adzic's
 [Fixture Gallery](http://gojko.net/fitnesse/fixturegallery):
 
-* FixtureGallery-DomainCode/FixtureGallery-Fixtures: Support code for
+* `FixtureGallery-DomainCode`/`FixtureGallery-Fixtures`: Support code for
   the fixture gallery.
 
 If you just want to use Fit or Fitnesse, all you need is the `Fit`
@@ -237,9 +237,8 @@ running, so we have to fake out Fitnesse.  To do this:
 * Create a Fitnesse page as described in `DevelopmentFitServer
   class>>exampleFitnessePage`.
 * In a workspace, run:
-
-	FitDevelopmentSystem current filename: '/path/to/file/used/in/fakeFitServer/script' asFilename.
-	FitDevelopmentSystem activate.
+	`FitDevelopmentSystem current filename: '/path/to/file/used/in/fakeFitServer/script' asFilename.
+	FitDevelopmentSystem activate.`
 
 Once you have done this, the development Fit server will start when
 you load your image, stop when you exit, and also stop and re-start
