@@ -1,5 +1,7 @@
 # Smalltalk Fit
 
+![Maintenance Status](https://img.shields.io/badge/maintenance-active-green.svg)
+
 Smalltalk Fit is a Smalltalk implementation of Ward Cunningham's
 [Framework for Integrated Tests](http://fit.c2.com),
 [Fitnesse](http://www.fitnesse.org), and Rick Mugridge's
